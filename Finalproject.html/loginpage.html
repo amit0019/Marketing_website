@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login form</title>
+	<link rel="stylesheet" type="text/css" href="loginpage.css">
+	<link rel="icon" href="logo.jpeg">
+
+	<link rel="preconnect" href="https://fonts.googleSapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	
+
+	<div class="container">
+		<h1>Log in</h1>
+		<form action="mainpage.html" target="_blank"> <!--Link another site here-->
+			<div class="main">
+				<input type="text"  required>
+				<span></span>
+				<label>Username</label>
+			</div>
+
+			<div class="main">
+				<input type="password" name="pass" required>
+				<span></span>
+				<label>Password</label>
+			</div>
+
+			<div class="pass"> Forgot your password?</div>
+			<input type="submit" value="Log In">
+
+			<div class="signup">
+				Don't have an account? <a href="signup.html" target="_blank">Sign up here</a>
+			</div>
+
+            <div class="or">
+                <div class="circleor">OR</div>
+            </div>
+            
+		</form>
+        <div class="button">
+            <button class="loginBtn loginBtn--google">
+                Login with Google
+              </button>
+            <br>
+            <button class="loginBtn loginBtn--facebook">
+                Login with Facebook
+              </button>
+                            
+        </div>
+	</div>
+
+</body>
+</html>
